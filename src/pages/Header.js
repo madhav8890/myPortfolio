@@ -162,6 +162,7 @@ import Aboutme from '../components/Aboutme';
     <hr></hr>
 
     {/* my projects */}
+    
     <div style={{display: 'flex', justifyContent:'space-evenly'}}>
         <Projects/>
         <Projects/>
