@@ -17,13 +17,6 @@ import {
         <Flex p={8} flex={1} align={'center'} >
           <Stack spacing={6} w={'full'} >
             <Heading>
-              <Text
-                as={'span'}
-                position={'relative'}
-               >
-                Freelance
-              </Text>
-              <br />{' '}
               <Text color={'blue.400'} as={'span'}>
                 Design Projects
               </Text>{' '}
@@ -35,25 +28,67 @@ import {
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Wrap>
   <WrapItem>
-    <Avatar name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Kola Tioluwani' src='https://i.imgur.com/4zFtfsp.png' />
   </WrapItem>
   <WrapItem>
-    <Avatar name='Kola Tioluwani' src='https://bit.ly/tioluwani-kolawole' />
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Dan Abrahmov' src='https://i.imgur.com/C34mISp.png' />
   </WrapItem>
   <WrapItem>
-    <Avatar name='Kent Dodds' src='https://bit.ly/kent-c-dodds' />
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Kent Dodds' src='https://i.imgur.com/86nrvNf.png' />
   </WrapItem>
   <WrapItem>
-    <Avatar name='Ryan Florence' src='https://bit.ly/ryan-florence' />
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Ryan Florence' src='https://i.imgur.com/yOe7vJk.png' />
   </WrapItem>
   <WrapItem>
-    <Avatar name='Prosper Otemuyiwa' src='https://bit.ly/prosper-baba' />
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Ryan Florence' src='https://i.imgur.com/ZdSIuO0.png' />
   </WrapItem>
   <WrapItem>
-    <Avatar name='Christian Nwamba' src='https://bit.ly/code-beast' />
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Prosper Otemuyiwa' src='https://i.imgur.com/y7XduLD.png' />
   </WrapItem>
   <WrapItem>
-    <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Christian Nwamba' src='https://i.imgur.com/keUpLhR.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Segun Adebayo' src='https://i.imgur.com/5pBqbGw.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Segun Adebayo' src='https://i.imgur.com/ZdSIuO0.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Dan Abrahmov' src='https://i.imgur.com/AKH68F8.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Kola Tioluwani' src='https://i.imgur.com/ivKysz2.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Kent Dodds' src='https://i.imgur.com/7IQZkNS.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Ryan Florence' src='https://i.imgur.com/MvdwugL.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Prosper Otemuyiwa' src='https://i.imgur.com/yxTFfhe.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Christian Nwamba' src='https://i.imgur.com/pKL89Ig.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Segun Adebayo' src='https://i.imgur.com/wSRsB7d.png' />
+  </WrapItem>
+   <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Prosper Otemuyiwa' src='https://i.imgur.com/DIdDkeE.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Christian Nwamba' src='https://i.imgur.com/5y7ibcd.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Segun Adebayo' src='https://i.imgur.com/immwOsm.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Christian Nwamba' src='https://i.imgur.com/1kTh6jI.png' />
+  </WrapItem>
+  <WrapItem>
+    <Avatar size='2xl' padding='5px' boxShadow='xl' margin='5px'  name='Segun Adebayo' src='https://i.imgur.com/mCgi76L.png' />
   </WrapItem>
 </Wrap>
             </Stack>
@@ -64,7 +99,7 @@ import {
             alt={'Login Image'}
             objectFit={'cover'}
             src={
-              'https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+              'https://i.imgur.com/VIO6fq8.png'
             }
           />
         </Flex>

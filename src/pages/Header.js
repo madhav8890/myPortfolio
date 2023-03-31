@@ -24,6 +24,7 @@ import {
 import Ourstory from '../components/Ourstory';
 import Footer from '../components/Footer';
 import Skills from '../components/Skills';
+import Aboutme from '../components/Aboutme';
 
 
   
@@ -90,6 +91,7 @@ import Skills from '../components/Skills';
       />
     </Head>
     {/*  */}
+    <Aboutme/>
     <Skills/>
     
     <Container maxW={'3xl'}>
