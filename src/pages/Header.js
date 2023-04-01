@@ -25,6 +25,10 @@ import Ourstory from '../components/Ourstory';
 import Footer from '../components/Footer';
 import Skills from '../components/Skills';
 import Aboutme from '../components/Aboutme';
+import JoinOurTeam from '../components/JoinOurTeam';
+import Testimonials from '../components/Testimonials';
+import Contact from '../components/Contact';
+
 
 
   
@@ -350,6 +354,12 @@ import Aboutme from '../components/Aboutme';
         </PriceWrapper>
       </Stack>
     </Box>
+    {/* Join our team */}
+    <JoinOurTeam/>
+    {/* testimonials */}
+    <Testimonials/>
+    {/* contact form */}
+    <Contact/>
     {/* footer components */}
     <Footer/>
   </>
